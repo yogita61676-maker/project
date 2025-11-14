@@ -1,0 +1,169 @@
+*{
+    border: 0cap;
+    margin: 0;
+    background-color:#0e0e12;
+    color: #ffffff;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+}
+.navbar li{
+    list-style-type: none;
+}
+.navbar a{
+    text-decoration: none;
+    color:#ffffff;
+}
+.hero{
+    height: 400px;
+    color: #ffffff;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myimage{
+    height: 150px;
+    width: 150px;
+    border: 2px solid #6905c6;
+    border-radius: 100%;
+    background-image: url("passport\ size\ photo.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+button{
+    background-color: #6905c6;
+    height: 30px;
+    width: 120px;
+    color: #ffffff;
+    border-radius: 3px;
+    margin: 10px;
+}
+button a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #6905c6;
+}
+.info p h1 h3 {
+    margin: 10px;
+}
+.content{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width:1000px;
+    margin-left: 120px;
+}
+.intro{
+    width: 400px;
+    padding: 10px;
+    height: 150px;
+    border: 2px solid #6905c6;
+    border-radius: 10px;
+    box-shadow:0px 0px 10px #8532d2;
+}
+.highlight{
+    width: 400px;
+    height: 150px;
+    padding: 10px;
+    border: 2px solid #6905c6;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #8532d2;
+}
+footer{
+    text-align: center;
+    margin-top: 50px;
+}
+.about-section{
+    margin-left: 400px;
+    border: 2px solid #6905c6;
+    border-radius:20px;
+    height: 400px;
+    width: 500px;
+    padding: 10px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 20px #8532d2;
+}
+.about-section h1{
+    text-align: center;
+    color: #8532d2;
+}
+.container{
+    padding: 20px;
+    margin: 60px;
+}
+.container h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.container h2{
+    margin-bottom: 15px;
+}
+.edu-card{
+    border: 1px solid #6905c6;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px #8532d2;
+    margin-bottom:20px ;
+    padding: 5px;
+}
+.edu-card h3{
+    margin-bottom: 6px;
+}
+.skills-box{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    justify-content: space-evenly;
+}
+.skill{
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #6905c6;
+    border-radius:12px;
+    box-shadow:0px 0px 15px #8532d2;
+}
+.project-grid{
+    display:flex;
+    justify-content: space-evenly;
+}
+.project-card{
+    height:160px;
+    width: 160px;
+    border: 2px solid #6905c6;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow:0px 0px 10px #8532d2;
+}
+.project-card h3{
+    margin-bottom: 10px;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.contact-box{
+    border: 1px solid #6905c6;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow:0px 0px 20px #8532d2;
+}
+.info{
+    margin-bottom: 20px;
+}
+.info h2{
+    color: #6905c6;
+}
+.info p{
+    margin: 10px;
+}
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    color: #8532d2;
+}
